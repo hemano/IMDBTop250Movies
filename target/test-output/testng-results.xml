@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="IMDB Top 250 Movies" duration-ms="153818" started-at="2015-02-10T22:30:22Z" finished-at="2015-02-10T22:32:56Z">
+    <groups>
+    </groups>
+    <test name="IMDB Top 250 Movies Fetch" duration-ms="153818" started-at="2015-02-10T22:30:22Z" finished-at="2015-02-10T22:32:56Z">
+      <class name="com.FetchTopData">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.FetchTopData@52621f0c]" name="start" is-config="true" duration-ms="26752" started-at="2015-02-10T15:30:22Z" finished-at="2015-02-10T15:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="getFirst250MoviesFromIMDB()[pri:0, instance:com.FetchTopData@52621f0c]" name="getFirst250MoviesFromIMDB" duration-ms="16448" started-at="2015-02-10T15:30:49Z" finished-at="2015-02-10T15:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirst250MoviesFromIMDB -->
+        <test-method status="PASS" signature="saveAndPrintMoviesDetails()[pri:0, instance:com.FetchTopData@52621f0c]" name="saveAndPrintMoviesDetails" duration-ms="109271" started-at="2015-02-10T15:31:05Z" depends-on-methods="com.FetchTopData.getFirst250MoviesFromIMDB" finished-at="2015-02-10T15:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveAndPrintMoviesDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FetchTopData@52621f0c]" name="tearDown" is-config="true" duration-ms="1307" started-at="2015-02-10T15:32:55Z" finished-at="2015-02-10T15:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.FetchTopData -->
+    </test> <!-- IMDB Top 250 Movies Fetch -->
+  </suite> <!-- IMDB Top 250 Movies -->
+</testng-results>
